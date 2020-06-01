@@ -1,22 +1,5 @@
-# a = 21
-# b = 0
-
-# try:
-#   a > 20
-# except:
-#   print('А - МЕНЬШЕ 20')
-# else:
-#   print('А - БОЛЬШЕ 20')
-# finally:
-#   print('А - это не Б')
-
-# class My_Exception (Exception):
-#     def __init__(self, amount):
-#         self.amount = amount1
-
-
 # ЗАДАЧА 1
-
+#Вспомогательная функция
 def is_number(string):
     if string.isdigit():
        return True
@@ -56,7 +39,7 @@ def polish_notation():
 
 polish_notation()
 
-#TASK 3
+#ЗАДАЧА 3
 
 documents = [
         {"type": "passport", "number": "2207 876234", "name": "Василий Гупкин"},
@@ -80,8 +63,3 @@ def name_printer():
         print(f'В документе №{n} отсутствует графа "name"')
 
 name_printer()
-
-
-
-
-
